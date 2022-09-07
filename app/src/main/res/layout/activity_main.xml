@@ -98,4 +98,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="391dp"
+        android:layout_height="286dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/bttinh"
+        app:layout_constraintTop_toBottomOf="@+id/bttinh"
+        app:srcCompat="@drawable/bmi" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
